@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bakhtiyar Mohammadi - Computer Science student portfolio focused on software engineering and machine learning.">
+  <title>Bakhtiyar Mohammadi | Computer Science Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="header" id="header">
+  <nav class="nav container">
+    <a href="#home" class="nav__logo">Bakhtiyar.</a>
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link active-link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#contact" class="nav__contact">Contact Me</a></li>
+      </ul>
+      <button class="nav__close" id="nav-close" aria-label="Close menu"><i class="ri-close-large-line"></i></button>
+    </div>
+    <button class="nav__toggle" id="nav-toggle" aria-label="Open menu"><i class="ri-menu-line"></i></button>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="home section" id="home">
+    <div class="home__glow home__glow--one"></div><div class="home__glow home__glow--two"></div>
+    <div class="home__container container grid">
+      <div class="home__data">
+        <span class="eyebrow">CS STUDENT • CALIFORNIA</span>
+        <h1 class="home__title">Hi, I'm <span>Bakhtiyar</span>.<br>Computer Science Student.</h1>
+        <p class="home__description">Computer Science student at California State University, Northridge, developing strong foundations in software engineering, databases, data structures, algorithms, and machine learning.</p>
+        <div class="home__buttons">
+          <a href="https://github.com/BakhtiyarMMDI" target="_blank" rel="noreferrer" class="button"><i class="ri-github-line"></i> View GitHub</a>
+          <a href="#contact" class="button button--ghost">Contact Me <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="home__quick">
+          <div><strong>Dec 2027</strong><span>Expected Graduation</span></div>
+          <div><strong>CSUN</strong><span>B.S. Computer Science</span></div>
+          <div><strong>SWE + ML</strong><span>Current Focus</span></div>
+        </div>
+      </div>
+      <div class="home__visual" aria-label="Profile photo area">
+        <div class="home__photo-frame">
+          <img src="assets/img/assets/img/profile.jpeg" alt="Bakhtiyar Mohammadi" class="home__photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="home__photo-placeholder">
+            <i class="ri-user-3-line"></i>
+            <span>Add your photo as</span>
+            <strong>assets/img/profile.jpg</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container about__container">
+      <div><span class="section__eyebrow">ABOUT</span><h2 class="section__title left">Learning deeply. <span>Building deliberately.</span></h2></div>
+      <p class="about__description">I'm pursuing a Bachelor of Science in Computer Science at CSUN. I'm building my skills in Python, C++, SQL, object-oriented programming, databases, and machine learning while strengthening my problem-solving through data structures and algorithms.</p>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+    <div class="container">
+      <span class="section__eyebrow">PROJECTS</span>
+      <h2 class="section__title left">Things I'm <span>building</span></h2>
+
+      <div class="projects__grid">
+        <article class="project-card">
+      
+          <div class="project-card__visual">
+            <div class="project-card__browser">
+      
+              <div class="project-card__browser-top">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+      
+              <div class="project-card__preview">
+                <img
+                  src="assets/img/assets/img/portfolio-preview.png"
+                  alt="Bakhtiyar Portfolio Website"
+                  class="project-card__image"
+                >
+              </div>
+      
+            </div>
+          </div>
+
+          <div class="project-card__content">
+            <div class="project-card__top">
+              <span class="pill">Current Project</span>
+              <span class="project-card__number">01</span>
+            </div>
+            <h3>Personal Developer Portfolio</h3>
+            <p>Responsive personal portfolio customized to present my computer science background, technical skills, education, work experience, and future software projects.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#home" class="project-link"><i class="ri-external-link-line"></i> You're viewing it</a>
+              <a href="https://github.com/BakhtiyarMMDI" target="_blank" rel="noreferrer" class="project-link"><i class="ri-github-line"></i> GitHub Profile</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="container">
+      <span class="section__eyebrow">EDUCATION</span><h2 class="section__title left">Academic <span>foundation</span></h2>
+      <article class="feature-card education__card">
+        <div class="feature-card__icon"><i class="ri-graduation-cap-line"></i></div>
+        <div><div class="card__header"><div><h3>California State University, Northridge</h3><p>Northridge, CA</p></div><span class="pill">Expected Dec 2027</span></div>
+        <h4>Bachelor of Science in Computer Science</h4>
+        <p class="muted">Relevant Coursework</p>
+        <div class="tags"><span>Data Structures & Algorithms</span><span>Database Systems</span><span>Machine Learning</span><span>Web Engineering</span><span>Computer Networks</span><span>Software Engineering</span></div></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <span class="section__eyebrow">EXPERIENCE</span><h2 class="section__title left">Work <span>experience</span></h2>
+      <div class="experience__grid">
+        <article class="feature-card"><span class="pill">Mar 2023 — Present</span><h3>Fuel Center Associate / Cashier</h3><p class="muted">California, USA</p><ul class="bullet-list"><li>Process 100+ customer transactions per shift using POS and cash register systems.</li><li>Assist customers with fuel purchases, payment issues, and general inquiries in a high-volume environment.</li><li>Maintain fuel center operations while following safety and cash-handling procedures.</li></ul></article>
+        <article class="feature-card"><span class="pill">Nov 2021 — Mar 2023</span><h3>Warehouse Associate</h3><p class="muted">McKesson • Memphis, TN</p><ul class="bullet-list"><li>Processed and verified hundreds of pharmaceutical products per shift.</li><li>Operated robotic and automated picking systems to support order fulfillment.</li><li>Used computer-based inventory systems to verify product quantities and shipment accuracy.</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="container"><span class="section__eyebrow">SKILLS</span><h2 class="section__title left">Technical <span>toolkit</span></h2>
+      <div class="skills__grid">
+        <article class="skill-card"><i class="ri-code-s-slash-line"></i><h3>Programming</h3><div class="tags"><span>Python</span><span>C++</span><span>SQL</span><span>HTML</span><span>CSS</span></div></article>
+        <article class="skill-card"><i class="ri-brain-line"></i><h3>Data & ML</h3><div class="tags"><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Machine Learning</span></div></article>
+        <article class="skill-card"><i class="ri-tools-line"></i><h3>Tools & Database</h3><div class="tags"><span>MySQL</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Jupyter</span><span>MySQL Workbench</span></div></article>
+        <article class="skill-card"><i class="ri-node-tree"></i><h3>Concepts</h3><div class="tags"><span>Data Structures</span><span>Algorithms</span><span>OOP</span><span>Database Design</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact"><div class="container contact__box"><span class="section__eyebrow">CONTACT</span><h2>Let's connect.</h2><p>I'm continuing to grow as a computer science student and software engineer.</p><div class="contact__links"><a href="mailto:bahti.mo99@outlook.com"><i class="ri-mail-line"></i> bahti.mo99@outlook.com</a><a href="https://github.com/BakhtiyarMMDI" target="_blank" rel="noreferrer"><i class="ri-github-line"></i> GitHub</a></div></div></section>
+</main>
+<footer class="footer"><div class="container footer__container"><p>© 2026 Bakhtiyar Mohammadi</p><a href="#home">Back to top <i class="ri-arrow-up-line"></i></a></div></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
